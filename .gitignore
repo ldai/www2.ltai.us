@@ -1,0 +1,53 @@
+# Logs
+*.log.zip
+
+# Maven artifacts
+**/target
+**/generated-sources
+**/bin/**
+
+# Performance Directory
+performance/perfExecution/.classpath
+performance/perfExecution/.project
+performance/perfExecution/.checkstyle
+performance/perfExecution/.eclipse-pmd
+performance/perfExecution/.settings/*
+performance/perfExecution/target/
+
+# Eclipse artifacts, including WTP generated manifests
+
+**/.settings/**
+**/.classpath
+**/.project
+**/.checkstyle
+**/.eclipse-pmd
+**/.settings/*
+**/log.dir_IS_UNDEFINED/**
+**/*.log
+**/.eclipse-pmd
+
+# IDEA artifacts and output dirs
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea
+output
+test-output
+/bin/
+/target/
+/data/
+/project/data/
+/project/logs/
+/project/.sonar/
+
+# General
+.DS_Store
+*~
+
+# Vagrant virtual machine
+.vagrant/
+
+# SQE 
+my_testng.xml
+mytestng.xml
